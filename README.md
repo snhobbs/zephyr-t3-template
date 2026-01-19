@@ -1,5 +1,7 @@
 # zephyr-t3-template
-Zephyr RTOS T3 Topology Template. A **T3 (forest) topology** is a workspace where a there is no main application. A manifest repo (like this one) owns the west manifest and defines the workspace configuration.
+Zephyr RTOS T3 Topology Template. A **T3 (forest) topology** is a workspace where there is no main application. A manifest repo (like this one) owns the west manifest and defines the workspace configuration.
+
+This builds on [zephyr-t2-template](https://github.com/snhobbs/zephyr-t3-template). It's suggested to have each project configured as a T2 topology and then manage a forest topology using this T3 template.
 
 Read more about topologies [here](https://docs.zephyrproject.org/latest/develop/west/workspaces.html).
 
